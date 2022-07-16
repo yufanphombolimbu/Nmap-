@@ -1,0 +1,17 @@
+What is Nmap ?
+
+
+
+Nmap 
+ nmap -h 
+ nmap --version 
+ man nmap 
+ 
+ nmap -T1 scanme.org
+ nmap -sV scanme.org
+ nmap -O scanme.org
+ nmap -sS -T1 -p- scanme.org
+ nmap -sT -T3 -p1-10000 scanme.org
+ nmap -sU -T5 -p- scanme.org
+ nmap -sN -T5 scanme.org
+ nmap -A scanme.prg -oN yufan.txt
